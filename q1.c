@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int f,c;
+    int f;
+    int c;
     printf("Digite a temperatura F:");
     scanf("%d",&f);
     c = 5 * ((f-32) / 9);
